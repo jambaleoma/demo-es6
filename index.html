@@ -1,0 +1,28 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Demo ES6</title>
+</head>
+
+<body>
+    <div> 
+        Benvenuto <span id="name"></span>
+    </div>
+</body>
+<script>
+    class User {
+        constructor() {
+            this.name = 'Enzo';
+        }
+
+        getName() {
+            return this.name;
+        }
+    }
+
+    let user = new User();
+    document.querySelector('#name').innerHTML = user.getName();
+</script>
+<script type="module" src="main.js"></script>
+
+</html>

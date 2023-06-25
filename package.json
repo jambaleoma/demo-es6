@@ -1,0 +1,14 @@
+{
+  "name": "demo-es6",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "start": "lite-server",
+    "startTerminal": "node main.js"
+  },
+  "author": "Enzo",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "type": "module"
+}
